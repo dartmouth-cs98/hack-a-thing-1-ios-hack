@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B301E0D21E3CAC700FD505B /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B301E0C21E3CAC700FD505B /* MealTableViewController.swift */; };
+		7B897DE521E29060005407CF /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B897DE421E29060005407CF /* RatingControl.swift */; };
+		7B897DE721E2B38B005407CF /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B897DE621E2B38B005407CF /* Meal.swift */; };
+		7B897DE921E2BC87005407CF /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B897DE821E2BC87005407CF /* MealTableViewCell.swift */; };
 		7BACD4A121E16D3A00D32160 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BACD4A021E16D3A00D32160 /* AppDelegate.swift */; };
-		7BACD4A321E16D3A00D32160 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BACD4A221E16D3A00D32160 /* ViewController.swift */; };
+		7BACD4A321E16D3A00D32160 /* MealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BACD4A221E16D3A00D32160 /* MealViewController.swift */; };
 		7BACD4A621E16D3A00D32160 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BACD4A421E16D3A00D32160 /* Main.storyboard */; };
 		7BACD4A821E16D3B00D32160 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BACD4A721E16D3B00D32160 /* Assets.xcassets */; };
 		7BACD4AB21E16D3B00D32160 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BACD4A921E16D3B00D32160 /* LaunchScreen.storyboard */; };
@@ -26,9 +30,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7B301E0C21E3CAC700FD505B /* MealTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
+		7B897DE421E29060005407CF /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		7B897DE621E2B38B005407CF /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		7B897DE821E2BC87005407CF /* MealTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
 		7BACD49D21E16D3A00D32160 /* Zeta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zeta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BACD4A021E16D3A00D32160 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7BACD4A221E16D3A00D32160 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7BACD4A221E16D3A00D32160 /* MealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewController.swift; sourceTree = "<group>"; };
 		7BACD4A521E16D3A00D32160 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7BACD4A721E16D3B00D32160 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BACD4AA21E16D3B00D32160 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -78,7 +86,11 @@
 			isa = PBXGroup;
 			children = (
 				7BACD4A021E16D3A00D32160 /* AppDelegate.swift */,
-				7BACD4A221E16D3A00D32160 /* ViewController.swift */,
+				7BACD4A221E16D3A00D32160 /* MealViewController.swift */,
+				7B897DE421E29060005407CF /* RatingControl.swift */,
+				7B897DE621E2B38B005407CF /* Meal.swift */,
+				7B897DE821E2BC87005407CF /* MealTableViewCell.swift */,
+				7B301E0C21E3CAC700FD505B /* MealTableViewController.swift */,
 				7BACD4A421E16D3A00D32160 /* Main.storyboard */,
 				7BACD4A721E16D3B00D32160 /* Assets.xcassets */,
 				7BACD4A921E16D3B00D32160 /* LaunchScreen.storyboard */,
@@ -197,8 +209,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BACD4A321E16D3A00D32160 /* ViewController.swift in Sources */,
+				7B897DE721E2B38B005407CF /* Meal.swift in Sources */,
+				7BACD4A321E16D3A00D32160 /* MealViewController.swift in Sources */,
+				7B897DE521E29060005407CF /* RatingControl.swift in Sources */,
 				7BACD4A121E16D3A00D32160 /* AppDelegate.swift in Sources */,
+				7B301E0D21E3CAC700FD505B /* MealTableViewController.swift in Sources */,
+				7B897DE921E2BC87005407CF /* MealTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,12 +377,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 638U266R22;
 				INFOPLIST_FILE = Zeta/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.Zeta;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cs98.Zeta;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -378,12 +395,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 638U266R22;
 				INFOPLIST_FILE = Zeta/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.Zeta;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cs98.Zeta;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
