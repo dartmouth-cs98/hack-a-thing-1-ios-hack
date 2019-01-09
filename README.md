@@ -9,7 +9,7 @@ The app is a basic tutorial to deep dive into iOS development with Swift. It con
 
 The app persists data using NSUserDefaults (which the tutorial did not go into; more on that later.)
 
-### What You Learned
+### What I Learned
 A lot! I had only seen Swift code before and have never made a fully functioning app from scratch. It was cool to see how storyboarding works and there was even some cool stuff in the tutorial about making storyboard views "Inspectable" and "Designable", which paralleled some functionality in the Unity editor that I've had much more experience with.
 
 I also tried to avoid copying and pasting so I got to fully understand what the methods and variables I was creating did. There's a fair amount of similarity between the way Swift organizes things and the way a web framework like React does, and it's cool to see the similarities between different MVC implementations.
